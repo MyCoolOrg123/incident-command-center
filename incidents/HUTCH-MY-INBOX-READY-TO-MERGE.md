@@ -6,3 +6,5 @@ existing ready-to-merge state in the My Inbox preview environment.
 Once its automated review passes and the pull request is mergeable, it should
 remain under **Needs your action** for its author.
 
+After testing, close the disposable fixture pull request. Keep this incident
+note as documentation of the test scenario.
