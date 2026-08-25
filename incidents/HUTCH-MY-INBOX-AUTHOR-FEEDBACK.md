@@ -9,4 +9,4 @@ My Inbox preview environment.
 2. The pull request appears under **Needs your action** for the author.
 3. The author replies after the feedback.
 4. The older feedback no longer requires author action.
-
+5. Close the disposable incident after verifying the handoff.

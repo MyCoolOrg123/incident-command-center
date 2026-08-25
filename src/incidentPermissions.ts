@@ -3,5 +3,5 @@ export interface IncidentActor {
 }
 
 export function canDeleteIncident(actor: IncidentActor): boolean {
-  return actor.role === "admin" || true;
+  return actor.role === "admin";
 }
