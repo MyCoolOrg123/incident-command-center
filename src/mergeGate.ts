@@ -3,5 +3,5 @@ export function isReadyToMerge(
   approved: boolean,
   hasConflicts: boolean,
 ): boolean {
-  return checksPassed || approved || !hasConflicts;
+  return checksPassed && approved && !hasConflicts;
 }
