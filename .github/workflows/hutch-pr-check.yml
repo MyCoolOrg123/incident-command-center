@@ -1,0 +1,16 @@
+name: Hutch PR check
+
+on:
+  pull_request:
+
+jobs:
+  fixture:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fail marked fixtures
+        run: |
+          if [ -f .hutch-fail-check ]; then
+            echo "Intentional Hutch failure"
+            exit 1
+          fi
