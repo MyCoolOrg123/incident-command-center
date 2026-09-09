@@ -16,3 +16,7 @@ roughly 18 percent of requests.
 
 Patch burst-window calculation first. Revert queue backoff only if p95 remains above
 750 ms after the patch deploy.
+
+## Patch proposal
+
+Reduce the team burst window from 15 seconds to 10 seconds and watch p95 for 30 minutes.

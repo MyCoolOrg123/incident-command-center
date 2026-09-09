@@ -6,7 +6,7 @@ export interface RateLimitPlan {
 
 export const plans: Record<RateLimitPlan["name"], RateLimitPlan> = {
   free: { name: "free", requestsPerMinute: 60, burstWindowSeconds: 10 },
-  team: { name: "team", requestsPerMinute: 600, burstWindowSeconds: 15 },
+  team: { name: "team", requestsPerMinute: 600, burstWindowSeconds: 10 },
   enterprise: { name: "enterprise", requestsPerMinute: 3000, burstWindowSeconds: 30 },
 };
 
